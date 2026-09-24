@@ -592,6 +592,71 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &780607305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780607307}
+  - component: {fileID: 780607306}
+  - component: {fileID: 780607308}
+  m_Layer: 0
+  m_Name: GameObject2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &780607306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780607305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abb7440ad30a7b4ea43ca0560d3f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drinkType: Coffee
+  raiseOrder:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &780607307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780607305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 384.6902, y: 82.09029, z: -299.2789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780607308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780607305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abb7440ad30a7b4ea43ca0560d3f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drinkType: Coffee
+  raiseOrder:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &823357188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d673c42a2fdc428e489d1153c9884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _costOfCoffee: 4
   coffeeAmountOrdered: 0
   totalOrderedAmount: 0
 --- !u!4 &1728727815
@@ -1242,3 +1308,4 @@ SceneRoots:
   - {fileID: 1728727815}
   - {fileID: 945180643}
   - {fileID: 333658867}
+  - {fileID: 780607307}
