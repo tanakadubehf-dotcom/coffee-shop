@@ -2,15 +2,24 @@ using UnityEngine;
 
 public class CoffeeIFELSE : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    int sugarLevel = 2;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (sugarLevel == 1)
+        {
+            Debug.Log("You have selected 1 sugar level");
+        }
+        else if (sugarLevel == 2)
+        {
+            Debug.Log("You have selected 2 sugar levels");
+        }
+        else if (sugarLevel == 3)
+        {
+            Debug.Log("You have selected 3 sugar levels");
+        }
+        else
+        {
+            Debug.Log("You have not selected a sugar level");
+        }
     }
 }
