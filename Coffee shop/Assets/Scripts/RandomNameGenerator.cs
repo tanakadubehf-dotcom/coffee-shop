@@ -5,7 +5,7 @@ public class RandomNameGenerator : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.P))
             Debug.Log("random name picked:" + names[Random.Range(0, names.Length)]);
     }
     public static string[] names = new string[5];
