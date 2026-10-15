@@ -148,9 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fae900c7034fc3e4d9370d9a9fb65705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dividend: 35
-  Divisor: 3
-  ModuloValue: 1
 --- !u!4 &19144540
 Transform:
   m_ObjectHideFlags: 0
@@ -318,7 +315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &298137803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,7 +2028,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826712448}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51b4d305d1547454e88a36116e5f0981, type: 3}
   m_Name: 
@@ -2039,10 +2036,10 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 298137802}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 298137803}
+        m_TargetAssemblyTypeName: TimerCountdown, Assembly-CSharp
+        m_MethodName: Onclick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

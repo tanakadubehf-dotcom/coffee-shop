@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Coroutine : MonoBehaviour
+public class MenuEnum : MonoBehaviour
 {
 
     void Start()

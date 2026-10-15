@@ -6,7 +6,7 @@ public class TimerCountdown : MonoBehaviour
     public int TimerNumber = 10;
     public int TimerNumCurrent;
 
-    void Start()
+    public void Onclick()
     {
         StartCoroutine(MyCoroutineMethod());
     }
